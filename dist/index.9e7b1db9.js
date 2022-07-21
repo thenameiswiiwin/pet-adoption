@@ -5,6 +5,7 @@ const Pet = (props)=>{
         React.createElement("h2", {}, props.breed), 
     ]);
 };
+_c = Pet;
 const App = ()=>{
     return React.createElement("div", {}, [
         React.createElement("h1", {}, "Adopt Me!"),
@@ -25,6 +26,10 @@ const App = ()=>{
         }), 
     ]);
 };
+_c1 = App;
 ReactDOM.render(React.createElement(App), document.getElementById("root"));
+var _c, _c1;
+$RefreshReg$(_c, "Pet");
+$RefreshReg$(_c1, "App");
 
 //# sourceMappingURL=index.9e7b1db9.js.map
