@@ -14,7 +14,8 @@
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
     "parcel": "^2.6.2",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "17.0.2",
