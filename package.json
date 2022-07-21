@@ -1,0 +1,14 @@
+{
+  "name": "pet-adoption",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thenameiswiiwin/pet-adoption-react.git",
+  "author": "Huy Nguyen <huyn.nguyen95@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
