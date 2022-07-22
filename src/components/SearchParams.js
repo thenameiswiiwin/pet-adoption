@@ -5,6 +5,8 @@ const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
 const SearchParams = () => {
   const [location, setLocation] = useState("");
   const [animal, setAnimal] = useState("");
+  const [breed, setBreed] = useState("");
+  const BREEDS = [];
 
   return (
     <div className="search-params">
@@ -33,13 +35,31 @@ const SearchParams = () => {
             }}
           >
             <option />
-            {ANIMALS.map((animal) => {
-              return (
-                <option value={animal} key={animal}>
-                  {animal}
-                </option>
-              );
-            })}
+            {ANIMALS.map((animal) => (
+              <option value={animal} key={animal}>
+                {animal}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label htmlFor="breed">
+          Animal
+          <select
+            id="breed"
+            value={breed}
+            onChange={(e) => {
+              setBreed(e.target.value);
+            }}
+            onBlur={(e) => {
+              setBreed(e.target.value);
+            }}
+          >
+            <option />
+            {BREEDS.map((breed) => (
+              <option value={breed} key={breed}>
+                {breed}
+              </option>
+            ))}
           </select>
         </label>
         <button>Submit</button>
