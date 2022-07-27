@@ -303,17 +303,16 @@ header {
 }
 
 @media only screen and (max-width: 845px) {
-  .search-params {
-    align-items: center;
-    width: 95%;
-  }
-
   .search {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 668px) {
+  .search-params {
+    align-items: center;
+  }
+
   .pet {
     height: 200px;
   }
