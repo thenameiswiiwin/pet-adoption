@@ -5,9 +5,8 @@
 /.pnp
 .pnp.js
 /dist
-.parcel-cache/
+.parcel-cache
 package-lock.json
-.parcel-cache/data.mdb
 
 # testing
 /coverage
