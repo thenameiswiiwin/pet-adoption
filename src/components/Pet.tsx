@@ -6,10 +6,9 @@ interface PetProps {
 
 const Pet = ({ name, animal, breed }: PetProps) => {
   return (
-    <div>
+    <div className="absolute bottom-0 left-0 bg-gradient-to-tr from-white to-transparent pr-2 pt-2">
       <h1>{name}</h1>
-      <h2>{animal}</h2>
-      <h2>{breed}</h2>
+      <h2>{`${animal} — ${breed}`}</h2>
     </div>
   );
 };
